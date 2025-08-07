@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us - Let's Connect</title>
+    <link rel="stylesheet" href="./contact.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="contact-page">
+    <main class="contact-page">
+      <!-- Banner Section -->
+      <section
+        class="hero"
+        role="banner"
+        aria-label="Contact Us Banner with plants"
+      >
+        <a
+          href="./index.html"
+          class="back-button"
+          aria-label="Go back"
+        >
+          <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+        <div class="hero-content">
+          <small>Contact Us</small>
+          <h1>Let’s Connect</h1>
+        </div>
+      </section>
+
+      <!-- Form Section -->
+      <section
+        class="contact-section"
+        aria-label="Send us message contact section"
+      >
+        <div class="contact-info">
+          <h2>Send us Message</h2>
+          <div class="contact-method">
+            <div class="icon-circle" aria-hidden="true">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <strong>Phone</strong>
+              <small>+880 1838992012</small>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="icon-circle" aria-hidden="true">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <strong>Email</strong>
+              <small>info@growwithrashikul.com</small>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="icon-circle" aria-hidden="true">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <strong>Address</strong>
+              <small>Monipur Bazar, Hotapara, Gazipur</small>
+            </div>
+          </div>
+        </div>
+
+        <form aria-label="Contact form" novalidate>
+          <label for="name"
+            >Name
+            <span aria-hidden="true" style="color: #8ea834">*</span></label
+          >
+          <input type="text" id="name" name="name" aria-required="true" />
+
+          <label for="email"
+            >Email
+            <span aria-hidden="true" style="color: #8ea834">*</span></label
+          >
+          <input type="email" id="email" name="email" aria-required="true" />
+
+          <label for="phone"
+            >Phone
+            <span aria-hidden="true" style="color: #8ea834">*</span></label
+          >
+          <input type="text" id="phone" name="phone" aria-required="true" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="contact-page">
+      <p>Follow Us</p>
+      <nav class="social-icons" aria-label="Social media links">
+        <a href="#" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" aria-label="Pinterest">
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
