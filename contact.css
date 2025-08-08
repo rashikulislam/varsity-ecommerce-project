@@ -158,7 +158,7 @@ textarea {
 .contact-page .social-icons a {
   color: #212121;
   text-decoration: none;
-  font-size: 0;
+  font-size: 20px;
 }
 .contact-page .social-icons svg {
   width: 24px;
